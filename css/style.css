@@ -643,7 +643,7 @@ footer .down-page .assistance ul li a {
 
   /* GENERAL */
   body {
-    margin: 0 5px;
+    margin: 0;
   }
   main {
     margin: 0;
@@ -685,7 +685,7 @@ footer .down-page .assistance ul li a {
 
   /* SECTION-TOP*/
   #section-top {
-    margin: 30px 12px;
+    margin: 30px 15px;
   }
   #section-top p {
     margin: 10px 0 0;
@@ -765,7 +765,7 @@ footer .down-page .assistance ul li a {
   #accomodation-popular .popular .container {
     flex-direction: column;
     justify-content: space-between;
-    margin: 10px 0 0;
+    margin: 10px 12px;
     height: 87%;
   }
   #accomodation-popular .popular .container article {
@@ -773,6 +773,7 @@ footer .down-page .assistance ul li a {
     height: 144px;
     margin: 0;
   }
+
   #accomodation-popular
     .popular
     .container
@@ -788,6 +789,11 @@ footer .down-page .assistance ul li a {
     padding: 25px 12px 20px;
     height: auto;
   }
+
+  #accomodation-popular .marseille .container {
+       margin: 0 5px;
+  }
+
   #accomodation-popular .marseille .container article {
     width: 100%;
   }
@@ -813,9 +819,8 @@ footer .down-page .assistance ul li a {
     width: 110px;
   }
 
-  /* --- ACTIVITY COLUMN --- */
   #activities .activity {
-    margin-top: 10px;
+    margin: 10px 5px 0 5px;
     flex-direction: column;
   }
   #activities .activity article {
@@ -831,7 +836,7 @@ footer .down-page .assistance ul li a {
   /* FOOTER */
   footer {
     background: #f2f2f2;
-    margin: 45px 0 0;
+    margin: 45px 5px 0 5px;
   }
   footer .down-page {
     flex-direction: column;
